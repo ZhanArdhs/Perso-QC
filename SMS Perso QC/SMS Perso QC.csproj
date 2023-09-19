@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7DF842C-B883-47C6-9B51-028225965937}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMS_Perso_QC</RootNamespace>
+    <AssemblyName>SMS Perso QC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>smart_card.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AHDev.Card">
+      <HintPath>..\..\AHDev.Card\AHDev.Card\bin\Debug\AHDev.Card.dll</HintPath>
+    </Reference>
+    <Reference Include="AHDev.License, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AHDev.Generate\AHDev.Generate\bin\Debug\AHDev.License.dll</HintPath>
+    </Reference>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IPQCReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPQCReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IPQCReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPQCReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IPQCReportB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPQCReportB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IPQCReportB2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IPQCReportB2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QCHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCHelp.Designer.cs">
+      <DependentUpon>QCHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCLapA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCLapA.Designer.cs">
+      <DependentUpon>QCLapA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCLapA_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCLapA_2.Designer.cs">
+      <DependentUpon>QCLapA_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCLapB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCLapB.Designer.cs">
+      <DependentUpon>QCLapB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCLapB_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCLapB_2.Designer.cs">
+      <DependentUpon>QCLapB_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCReg.Designer.cs">
+      <DependentUpon>QCReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QCTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QCTool.Designer.cs">
+      <DependentUpon>QCTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="IPQCReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IPQCReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPQCReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IPQCReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPQCReportB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IPQCReportB.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPQCReportB2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IPQCReportB2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCHelp.resx">
+      <DependentUpon>QCHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCLapA.resx">
+      <DependentUpon>QCLapA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCLapA_2.resx">
+      <DependentUpon>QCLapA_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCLapB.resx">
+      <DependentUpon>QCLapB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCLapB_2.resx">
+      <DependentUpon>QCLapB_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCReg.resx">
+      <DependentUpon>QCReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QCTool.resx">
+      <DependentUpon>QCTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_sms_a.png" />
+    <None Include="Resources\barcode match.JPG" />
+    <None Include="Resources\barcode not match.JPG" />
+    <None Include="Resources\reader &amp; provider.JPG" />
+    <None Include="Resources\reader not detect.JPG" />
+    <None Include="Resources\match card.JPG" />
+    <None Include="Resources\not match.JPG" />
+    <None Include="Resources\btn proses.JPG" />
+    <None Include="Resources\que proses.JPG" />
+    <None Include="Resources\report.JPG" />
+    <None Include="Resources\input normal.JPG" />
+    <None Include="Resources\error jop.JPG" />
+    <Content Include="smart_card.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

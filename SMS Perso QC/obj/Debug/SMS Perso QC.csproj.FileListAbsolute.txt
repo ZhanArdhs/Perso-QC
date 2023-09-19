@@ -1,0 +1,46 @@
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.exe
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.pdb
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.csprojResolveAssemblyReference.cache
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCTool.resources
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.Properties.Resources.resources
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.csproj.GenerateResource.Cache
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.exe
+c:\users\data it\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.pdb
+C:\Users\Data IT\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\bin\Debug\SMSCard.dll
+C:\Users\Data IT\onedrive\documents\visual studio 2013\Projects\SMS Perso QC\SMS Perso QC\bin\Debug\SMSCard.pdb
+C:\Users\Data IT\OneDrive\Documents\Visual Studio 2013\Projects\SMS Perso QC\SMS Perso QC\bin\Debug\ApduList.xml
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.exe.config
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.exe
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.pdb
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.Card.dll
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.License.dll
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.Card.pdb
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.License.pdb
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCHelp.resources
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCLapA.resources
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCLapB.resources
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCReg.resources
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCTool.resources
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.Properties.Resources.resources
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.csproj.GenerateResource.Cache
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.exe
+D:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.pdb
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.exe.config
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.exe
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\SMS Perso QC.pdb
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.Card.dll
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.Card.pdb
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.License.pdb
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCHelp.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCLapA.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCLapA_2.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCLapB.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCLapB_2.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCReg.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.QCTool.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS_Perso_QC.Properties.Resources.resources
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.csproj.GenerateResource.Cache
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.exe
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.pdb
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\bin\Debug\AHDev.License.dll
+E:\DATA IT\JAVA\SMS Perso QC\SMS Perso QC\obj\Debug\SMS Perso QC.csprojResolveAssemblyReference.cache
